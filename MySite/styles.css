@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Boska;
+    src: url(./fonts/Boska.otf);
+    list-style: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #D9D4D2;
+}
+
+.header{
+    background-color: #59230F;
+    max-width: 90%;
+    min-width: 90%;
+    margin: 0 100px;
+    margin-top: 25px;
+    border-radius: 25px;
+    height: 80px;
+}
+
+.header-logo{
+    text-align: center;
+    position: relative;
+    padding: 7px 0px;
+    right: 10px;
+}
+
+.header-logo a{
+    color: #D9A689;
+    font-size: 53px;
+    font-family: Boska;
+    font-style: italic;
+}
+
+.header-ul ul li{
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    left: 170px;
+}
+
+.header-ul ul li a{
+    color: #BF8069;
+    font-size: 30px;
+    margin-right: 30px;
+    font-style: italic;
+}
+
+.header-btn{
+    float: right;
+    position: relative;
+    bottom: 101px;
+    right: 100px;
+}
+
+.header-btn button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #BF8069;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Boska;
+}
+
+.header-btn button:hover{
+    cursor: pointer;
+}
